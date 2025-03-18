@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quintessential&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: "Liter", serif;
+}
+
+.formpage-container {
+  min-height: 100vh;
+  background-color: #f7f8fc;
+  transition: filter 0.3s ease; 
+}
+
+
+.blur-background {
+  filter: blur(5px);
+  pointer-events: visible; 
+  
+}
+
+.navbar {
+  width: 1280px;
+  height: 50px;
+  color: white;
+  
+}
+
+.navbar .navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.hiddencontent {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  right: -550px;
+  width: 40%;
+  transition: transform 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.usercontainer {
+  margin-left: 20px;
+  margin-right: 0px;
+  line-height: 20px;
+  border-radius: 12px;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  height: 100%;
+  min-height: 550px;
+  transform: translateY(-20px);
+}
+
+.customerx{
+  margin-left: 350px;
+  font-size: 22px;
+  background-color: red;
+
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 5px;
+  display: block;
+}
+
+
+
+
+.confirm-msg {
+  border: none;
+  height: 100px;
+  width: fit-content;
+  background-color: #FFFFF0;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed; 
+  top: 40%; 
+  left: 40%;
+  z-index: 9999; 
+}
+
+.confirm-msg button {
+  width: 40px;
+  height: 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cnf-btn-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+
+.dropdown button {
+  color: #212529;
+  height: 40px;
+  width: 60px;
+  background-color: #212529;
+  border: none;
+}
+
+.dropdown .dropdown-menu ul {
+  width: 20px;
+}
+
+.dropdown .dropdown-menu button {
+  background-color: #fff;
+}
+
+.hiddencontent.slide-in {
+  transform: translateX(-500px);
+}
+
+.formbutton button {
+  width: 100px;
+  margin-left: 1100px;
+  position: absolute;
+  top: 52px;
+}
+
+.usercontainer input {
+  height: 40px;
+  line-height: 20px;
+}
+
+.usercontainer label {
+  color: white;
+}
+
+
+.btn-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.profile-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+h2 {
+  color: #333;
+}
+
+.dropdown-menu {
+  min-width: 200px;
+}
+
+.table-list {
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-list th {
+  background-color: #333;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.table-list td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.table-list tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-list th.black {
+  color: #333;
+}
+
+
+.image-and-button {
+  display: flex;
+  align-items: center;
+}
+
+.upload-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: skyblue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+ height: 50px;
+ width: 100px;
+  
+  cursor: pointer;
+ 
+}
+
+.pagination button:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
